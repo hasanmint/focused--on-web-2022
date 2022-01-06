@@ -19,6 +19,7 @@ p {
 
 .flex-container {
 	display: flex;
+	margin-top: 150px;
 }
 
 .half-width {
@@ -93,4 +94,10 @@ p {
 
 #goal:hover {
 	background-color: #ffdddd;
+}
+
+.coding-section {
+	background-image: url(../img/bg/code-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
 }
