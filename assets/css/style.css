@@ -8,8 +8,13 @@ h2 {
 	line-height: 25px;
 }
 
+h3 {
+	font-size: 22px;
+}
+
 p {
 	font-size: 18px;
+	text-align: justify;
 }
 
 .flex-container {
@@ -46,4 +51,46 @@ p {
 
 .title-top {
 	margin-top: 150px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Vission-section */
+
+.quarter {
+	width: 30%;
+	padding-left: 5%;
+	margin-left: 3%;
+	padding-right: 8%;
+	border-radius: 10px;
+	background-color: coral;
+}
+.quarter img {
+	width: 50%;
+}
+
+#mission {
+	background-color: #9e9e9e;
+}
+
+#mission:hover {
+	background-color: #4f9da6;
+}
+
+#vission {
+	background-color: #f1f1f1;
+}
+
+#vission:hover {
+	background-color: #ff5959;
+}
+
+#goal {
+	background-color: #fff4d6;
+}
+
+#goal:hover {
+	background-color: #ffdddd;
 }
