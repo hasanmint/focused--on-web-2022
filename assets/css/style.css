@@ -101,3 +101,9 @@ p {
 	background-repeat: no-repeat;
 	background-position: left;
 }
+
+.project-section {
+	background-image: url(../img/bg/project-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
