@@ -19,7 +19,7 @@ p {
 
 .flex-container {
 	display: flex;
-	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
 .half-width {
@@ -62,9 +62,10 @@ p {
 
 .quarter {
 	width: 30%;
-	padding-left: 5%;
+	padding-left: 1%;
 	margin-left: 3%;
-	padding-right: 8%;
+	margin-right: 2%;
+	padding-right: 1%;
 	border-radius: 10px;
 	background-color: coral;
 }
@@ -106,4 +107,10 @@ p {
 	background-image: url(../img/bg/project-bg.png);
 	background-repeat: no-repeat;
 	background-position: right;
+}
+
+.footer-section {
+	background-color: #0b0d17;
+	color: white;
+	padding: 10px;
 }
