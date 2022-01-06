@@ -1,3 +1,4 @@
+/* -------- Headings ---------- */
 body {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
@@ -5,7 +6,7 @@ body {
 
 h2 {
 	font-size: 40px;
-	line-height: 25px;
+	line-height: 28px;
 }
 
 h3 {
@@ -15,7 +16,10 @@ h3 {
 p {
 	font-size: 18px;
 	text-align: justify;
+	line-height: 30px;
 }
+
+/* -------- About Section  ---------- */
 
 .flex-container {
 	display: flex;
@@ -50,6 +54,10 @@ p {
 	border-radius: 5px;
 }
 
+.btn:hover {
+	background-color: #ffad5a;
+}
+
 .title-top {
 	margin-top: 150px;
 }
@@ -58,11 +66,11 @@ p {
 	text-align: center;
 }
 
-/* Vission-section */
+/* -------- Vission Section  ---------- */
 
 .quarter {
 	width: 30%;
-	padding-left: 1%;
+	padding-left: 2%;
 	margin-left: 3%;
 	margin-right: 2%;
 	padding-right: 1%;
@@ -97,11 +105,15 @@ p {
 	background-color: #ffdddd;
 }
 
+/* -------- Coding Section  ---------- */
+
 .coding-section {
 	background-image: url(../img/bg/code-bg.png);
 	background-repeat: no-repeat;
 	background-position: left;
 }
+
+/* -------- Project Section  ---------- */
 
 .project-section {
 	background-image: url(../img/bg/project-bg.png);
@@ -109,6 +121,30 @@ p {
 	background-position: right;
 }
 
+/* -------- Blog Section  ---------- */
+.blog {
+	background-image: url(../img/bg/blog.png);
+	background-repeat: no-repeat;
+}
+.omicron {
+	width: 30%;
+	padding: 1%;
+	margin: 5%;
+	margin-left: 3%;
+	border: 10px solid #ccc;
+	float: left;
+	box-shadow: 10px 20px 40px grey;
+}
+
+.omicron img {
+	width: 100%;
+}
+
+.omicron a {
+	text-decoration: none;
+}
+
+/* -------- Footer Section  ---------- */
 .footer-section {
 	background-color: #0b0d17;
 	color: white;
