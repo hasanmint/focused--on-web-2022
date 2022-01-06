@@ -76,6 +76,7 @@ p {
 	padding-right: 1%;
 	border-radius: 10px;
 	background-color: coral;
+	text-align: justify;
 }
 .quarter img {
 	width: 50%;
@@ -90,11 +91,11 @@ p {
 }
 
 #vission {
-	background-color: #f1f1f1;
+	background-color: #95bb98;
 }
 
 #vission:hover {
-	background-color: #ff5959;
+	background-color: #d1a17b;
 }
 
 #goal {
